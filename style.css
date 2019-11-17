@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,6 +24,11 @@ nav li {
   font-size: 13px;
   display: table-cell;
   width: 80px;
+}
+
+nav li:hover {
+  color: #C0BBB5;
+  cursor: pointer;
 }
 
 main {
@@ -84,6 +88,10 @@ footer p {
   text-transform: uppercase;
 }
 
+.btn-main:hover{
+  background-color: #3b3b3b;
+}
+
 .btn-default {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -91,8 +99,8 @@ footer p {
   letter-spacing: 1.3px;
   padding: 10px 20px;
   text-decoration: none;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  text-transform: uppercase;  
+  margin-bottom: 20px;      
 }
 
 .supporting {
@@ -137,7 +145,12 @@ footer p {
   text-transform: uppercase;
   padding: 10px;
   margin-bottom: 10px;
-  border: 2px solid #333333;
+  border: 2px solid #333333; 
+}
+
+.supporting a:hover{
+  background-color: #3b3b3b;
+  color: white;
 }
 
 @media (max-width: 500px) {
